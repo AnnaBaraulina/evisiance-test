@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Test Technique. Evisiance</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h2 class="header__title">MAVILLE.FR</h2>
+      <button class="header__openDialogBtn" aria-haspopup="dialog" aria-controls="myDialog" type="button"></button>
+      <dialog class="header__child" id="myDialog">
+
+        <button class="header__closeDialogBtn"></button>
+        <nav class="header__dialog-wrapper">
+          <ul class="header__menu">
+            <li><a class="header__menu-link" href="#"><img class="header__link-icon" alt="picture of house"
+                  src="./images/Icon feather-home.svg">
+                <span class="header__link-span">Accueil</span>
+              </a></li>
+            <li><a class="header__menu-link" href="#"><img class="header__link-icon" alt="heart icon"
+                  src="./images/Icon feather-heart.svg"><span class="header__link-span">Vie
+                municipale</span></a></li>
+            <li><a class="header__menu-link" href="#"><img class="header__link-icon" alt="user icon"
+                  src="./images/Icon feather-users.svg"><span class="header__link-span">Au quotidien</span></a></li>
+            <li><a class="header__menu-link" href="#"><img class="header__link-icon" alt="cube icon"
+                  src="./images/Icon feather-box.svg"><span class="header__link-span">Cadre de vie</span></a></li>
+            <li><a class="header__menu-link" href="#"><img class="header__link-icon" alt="music icon"
+                  src="./images/Icon feather-music.svg"><span class="header__link-span">Loisirs & culture</span></a></li>
+          </ul>
+        </nav>
+
+      </dialog>
+    </header>
+    <main>
+      <section class="title">
+        <div class="title__container">
+          <h1>Titre de la page</h1>
+        </div>
+      </section>
+      <section class="links">
+        <div class="links__container">
+          <a class="links__nav-link">
+            <span class="link">Accueil<span> >
+          </a>
+          <a class="links__nav-link">
+            <span class="link">Solutions<span> >
+          </a>
+          <span class="links__nav-link">Nom de la page</span>
+        </div>
+        <img alt="printer icon" src="./images/Icon feather-printer.svg">
+      </section>
+      <div class="line"></div>
+      <section class="hero">
+        <picture>
+          <source srcset="./images/image-hero@2x.png" media="(min-width: 1000px)">
+          <img class="hero__pictire" alt="hero picture" src="./images/image-hero.png">
+        </picture>
+      </section>
+      <section class="titre-du-contenu">
+        <h3 class="titre-du-contenu__title">Titre du contenu - Neque porro quisquam est qui dolorem ipsum quia dolor sit
+          amet,
+          consectetur, adipisci velit…</h3>
+        <h3 class="titre-du-contenu__subtitle">Chapeau / Introduction - Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Donec
+          sodales nibh in nibh dapibus commodo. Duis nec sodales ligula. Aliquam sit amet vestibulum tellus, vel lacinia
+          nunc. Cras at augue sagittis, auctor magna vel, placerat diam. Fusce accumsan semper urna</h3>
+
+      </section>
+      <section class="description">
+        <div class="description__text">
+          <h4>Titre chapitre - Quisque venenatis vitae sapien in vestibulum</h4>
+          <p class="description__paragraph">Mauris finibus nulla felis. Quisque molestie nunc posuere quam tristique
+            fringilla. Praesent vel dolor eget leo ultrices viverra. Nullam faucibus pulvinar facilisis. Suspendisse
+            tempus tortor sed turpis commodo finibus. Praesent in augue malesuada, commodo massa ac, convallis mi. Proin
+            maximus diam libero, a luctus risus iaculis nec.</p>
+          <p class="description__paragraph description__paragraph_offset">Cum sociis natoque penatibus et magnis dis
+            parturient. Prima luce, cum quibus mons aliud consensu ab eo. Donec sed odio operae, eu vulputate felis
+            rhoncus. Curabitur blandit tempus ardua ridiculus sed magna.</p>
+          <p class="description__paragraph">Communi observantia non est recedendum. Quisque ut dolor gravida, placerat
+            libero vel, euismod. Plura mihi bona sunt, inclinet, amari petere vellent. Ut enim ad minim veniam, quis
+            nostrud exercitation. Sed haec quis possit intrepidus aestimare tellus. Unam incolunt Belgae, aliam
+            Aquitani, tertiam.</p>
+          <div class="description__columns">
+            <div class="description__column-left">
+              <div class="descriptions__column-left_type_green">
+                <span>Bloc mise en avant « Vivamus blandit, purus eu finibus volutpat, orci ligula commodo augue…
+                  »</span>
+              </div>
+              <div class="descriptions__column-left_type_red"><span>Bloc mise en avant « Vivamus blandit, purus eu
+                  finibus volutpat, orci ligula commodo augue… »</span></div>
+            </div>
+            <div class="description__column-right">
+              <p class="column-right__paragraph">Mauris finibus nulla felis. Quisque molestie nunc posuere quam
+                tristique fringilla. Praesent vel dolor eget leo ultrices viverra. Nullam faucibus pulvinar facilisis.
+                Suspendisse tempus tortor sed turpis commodo finibus. Praesent in augue malesuada, commodo massa ac,
+                convallis mi.</p>
+              <a href="#" class="column-right__link">> Lien vers un contenu interne</a>
+              <a class="column-right__download"><button class="column-right__download-button"><img
+                    src="./images/Icon feather-link.svg"><span class="column-right__download-span">Lien
+                    externe</span></button></a>
+            </div>
+          </div>
+          <div class="description__list">
+  
+          </div>
+
+        </div>
+        <div class="description__file">
+          <p class="description__file-title">Titre bloc…</p>
+          <div class="description__file-image"><img alt="file picture" src="./images/image sidebar.png"></div>
+          <p class="description__file-text">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
+            adipisci velit…</p>
+          <a href="#" download="#" class="description__file-download"><button type="button" role="button" tabindex="0"
+              class="description__file-download-button">
+              <span class="description__file-download-text">> PDF 2.36 mo</span>
+            </button></a>
+        </div>
+      </section>
+    </main>
+    <footer>
+
+
+    </footer>
+
+
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
