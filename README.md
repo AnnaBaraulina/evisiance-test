@@ -18,3 +18,5 @@
 
 ## **Les difficultés rencontrées**  
 Absence de design pour la résolution desktop. De ce fait, il était difficile de comprendre à quoi ressemble le menu du header du site. Cela a rendu difficile le choix de la méthode appropriée pour développer le menu burger. J'ai choisi d'utiliser la balise <dialog>, car je l'ai trouvée la plus adaptée à ce modèle.  
+
+### https://annabaraulina.github.io/evisiance-test/ ###
